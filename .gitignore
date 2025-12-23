@@ -1,0 +1,51 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# OpenCV / Runtime
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Large / Generated Data
+# =========================
+ref/embeddings.npy
+ref/images/
+ref/*.npy
+ref/*.pt
+ref/*.onnx
+
+# =========================
+# Local reference files
+# =========================
+ref/cards.json
+ref/ids.json
+
+# =========================
+# Camera / Output Dumps
+# =========================
+captures/
+outputs/
+debug/
