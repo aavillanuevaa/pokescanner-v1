@@ -1,8 +1,9 @@
 # Pokémon Card Scanner (OpenCV + CLIP)
 
-Real-time Pokemon card scanner built with **OpenCV** and **CLIP embeddings** 
+Real-time Pokemon card scanner built with **OpenCV** and **CLIP embeddings**.
 Detects a card in a webcam feed, stabilizes the view, and identifies the card using visual similarity.
 Currently only works with pokemon set: "Mega Evolutions"
+
 
 This project is optimized for:
 - Low-quality webcams
@@ -21,6 +22,8 @@ This project is optimized for:
 
 # Project Structure
 
+```text
+
 ├── app_ui.py          # UI loop, drawing, input handling
 ├── scanner_core.py    # Camera, detection, recognition logic
 ├── cv_card.py         # Card quad detection + warping
@@ -34,7 +37,8 @@ This project is optimized for:
 ├── requirements.txt
 └── README.md
 
+```
 # Future Works
 
-Planning to move on to work with all sets from SV era
-Display market price 
+- Planning to move on to work with all sets from SV era
+- Display market price 
