@@ -29,11 +29,11 @@ This project is optimized for:
 ├── cv_card.py         # Card quad detection + warping
 ├── embedder.py        # CLIP embedding utilities
 ├── ref/
-│   ├── README.md      # Instructions for reference data (not tracked)
-│   ├── images/        # Card images (ignored by git)
-│   ├── embeddings.npy # CLIP embeddings (ignored by git)
-│   ├── cards.json     # Card metadata (ignored by git)
-│   └── ids.json       # ID mapping (ignored by git)
+│   ├── README.md      # Instructions for reference data 
+│   ├── images/        # Card images 
+│   ├── embeddings.npy # CLIP embeddings 
+│   ├── cards.json     # Card metadata 
+│   └── ids.json       # ID mapping 
 ├── requirements.txt
 └── README.md
 
